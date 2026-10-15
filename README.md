@@ -2,23 +2,6 @@
 
 A mobile-friendly Streamlit app that reads an English hospital PDF or photo and automatically presents a short Malayalam explanation. Patients can ask follow-up questions in Malayalam or English by text or voice. Every supported answer shows the original English source line, page and section. The included reports are entirely fictional and are marked as demonstrations.
 
-## Architecture
-
-```mermaid
-flowchart LR
-    U[PDF or photo] --> X[PDF text / local OCR]
-    X --> C[Section-aware chunks with page and line IDs]
-    C --> E[multilingual-e5-base passage embeddings]
-    E --> V[Session Chroma index]
-    V --> R[Top-k retrieval]
-    R --> L[Local Ollama JSON answer or explanation]
-    L --> S[Schema, citation, number and semantic checks]
-    S --> O[Malayalam cards / bilingual Q&A]
-    M[Mic] --> W[Whisper with explicit ml or en]
-    W --> Q[Editable question]
-    Q --> R
-    O --> T[gTTS audio]
-```
 
 ## Requirements and setup
 
@@ -91,11 +74,7 @@ python scripts/stage1_english.py data/sample_docs/discharge_dengue.pdf "What is 
 - A Streamlit session can end without a reliable disconnect callback. The app attempts cleanup on clear, object disposal and process exit; abandoned indexes are removed on a later app run after 24 hours by default. For strict immediate deletion on browser close, deploy with an external session lifecycle service. Uploaded bytes are not written to a separate file, but the session index temporarily holds document text on local disk.
 - Local mode sends explanation and answer requests only to loopback Ollama. E5 and Whisper model downloads and gTTS can require network access; gTTS sends text for synthesis. Optional Anthropic mode sends report content to Anthropic. This demo does not implement authentication or encrypted storage.
 
-## Safety and privacy
 
-The disclaimer remains visible in both languages. Emergency wording bypasses document Q&A and directs the user to a doctor or emergency services. The prompts forbid advice, dose changes, interpretation and unsupported details. Supported answers require cited English lines; dosage and numbers must match those lines exactly. Neither document text nor questions are written to application logs. The index is local to one session and the **Clear my data** button removes it on a best-effort basis.
-
-This is an explanation aid, not a clinical decision tool. OCR errors, retrieval misses and model mistakes are possible. Patients should confirm medication and care instructions with their clinician.
 
 ## Evaluation
 
