@@ -1,0 +1,12 @@
+[server]
+maxUploadSize = 15
+# Streamlit's local source watcher can inspect torch.classes.__path__ on Windows
+# and emit a spurious RuntimeError. Disable only file-change watching.
+fileWatcherType = "none"
+
+[theme]
+primaryColor = "#137C72"
+backgroundColor = "#F6F8FA"
+secondaryBackgroundColor = "#EAF1F2"
+textColor = "#182F3B"
+font = "sans serif"

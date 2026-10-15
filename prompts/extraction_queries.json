@@ -1,0 +1,8 @@
+[
+  {"key":"diagnosis","title":"രോഗനിർണയം","query":"diagnosis discharge diagnosis condition reason for admission"},
+  {"key":"medicines","title":"മരുന്നുകൾ","query":"medications prescription drug name dose strength frequency timing duration"},
+  {"key":"tests","title":"പരിശോധനകൾ","query":"investigations laboratory tests results values findings"},
+  {"key":"follow_up","title":"തുടർ പരിശോധന","query":"follow-up appointment date instructions review visit"},
+  {"key":"warnings","title":"ശ്രദ്ധിക്കേണ്ടവ","query":"warning signs when to return to hospital urgent symptoms"},
+  {"key":"diet_rest","title":"ഭക്ഷണം / വിശ്രമം","query":"diet food activity rest exercise restrictions advice"}
+]

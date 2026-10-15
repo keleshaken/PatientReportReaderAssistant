@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+data/eval/audio/*.wav
+data/eval/audio/*.mp3
+*.log
+/sample_translation_check.txt
+/malayalam_qa_test_results.json
+/discharge_dengue.pdf

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "Q01",
+    "document": "discharge_dengue.pdf",
+    "question": "What is the diagnosis?",
+    "expected_answer": "Dengue fever",
+    "expected_source_section": "Diagnosis",
+    "answerable": true
+  },
+  {
+    "id": "Q02",
+    "document": "discharge_dengue.pdf",
+    "question": "What was the platelet count?",
+    "expected_answer": "145,000 /uL",
+    "expected_source_section": "Investigations",
+    "answerable": true
+  },
+  {
+    "id": "Q03",
+    "document": "discharge_dengue.pdf",
+    "question": "How often is Paracetamol taken?",
+    "expected_answer": "every 8 hours",
+    "expected_source_section": "Medications",
+    "answerable": true
+  },
+  {
+    "id": "Q04",
+    "document": "discharge_dengue.pdf",
+    "question": "When is the clinic review?",
+    "expected_answer": "07 April 2026",
+    "expected_source_section": "Follow-up",
+    "answerable": true
+  },
+  {
+    "id": "Q05",
+    "document": "discharge_dengue.pdf",
+    "question": "What is the patient's blood group?",
+    "expected_answer": "",
+    "expected_source_section": "",
+    "answerable": false
+  },
+  {
+    "id": "Q06",
+    "document": "discharge_diabetes_hypertension.pdf",
+    "question": "What diagnoses are listed?",
+    "expected_answer": "Type 2 diabetes mellitus and hypertension",
+    "expected_source_section": "Diagnosis",
+    "answerable": true
+  },
+  {
+    "id": "Q07",
+    "document": "discharge_diabetes_hypertension.pdf",
+    "question": "What is the Metformin dose?",
+    "expected_answer": "500 mg twice daily",
+    "expected_source_section": "Medications",
+    "answerable": true
+  },
+  {
+    "id": "Q08",
+    "document": "discharge_diabetes_hypertension.pdf",
+    "question": "What was fasting glucose?",
+    "expected_answer": "156 mg/dL",
+    "expected_source_section": "Investigations",
+    "answerable": true
+  },
+  {
+    "id": "Q09",
+    "document": "discharge_diabetes_hypertension.pdf",
+    "question": "How long is Amlodipine prescribed?",
+    "expected_answer": "30 days",
+    "expected_source_section": "Medications",
+    "answerable": true
+  },
+  {
+    "id": "Q10",
+    "document": "discharge_diabetes_hypertension.pdf",
+    "question": "Should insulin be started?",
+    "expected_answer": "",
+    "expected_source_section": "",
+    "answerable": false
+  },
+  {
+    "id": "Q11",
+    "document": "discharge_appendectomy.pdf",
+    "question": "When was the operation?",
+    "expected_answer": "10 June 2026",
+    "expected_source_section": "Diagnosis",
+    "answerable": true
+  },
+  {
+    "id": "Q12",
+    "document": "discharge_appendectomy.pdf",
+    "question": "What lifting restriction is listed?",
+    "expected_answer": "Avoid heavy lifting for 2 weeks",
+    "expected_source_section": "Advice",
+    "answerable": true
+  },
+  {
+    "id": "Q13",
+    "document": "discharge_appendectomy.pdf",
+    "question": "What are the wound warning signs?",
+    "expected_answer": "fever, increasing wound redness, or discharge",
+    "expected_source_section": "Warning signs",
+    "answerable": true
+  },
+  {
+    "id": "Q14",
+    "document": "discharge_appendectomy.pdf",
+    "question": "When is the wound check?",
+    "expected_answer": "17 June 2026",
+    "expected_source_section": "Follow-up",
+    "answerable": true
+  },
+  {
+    "id": "Q15",
+    "document": "discharge_appendectomy.pdf",
+    "question": "What type of sutures were used?",
+    "expected_answer": "",
+    "expected_source_section": "",
+    "answerable": false
+  },
+  {
+    "id": "Q16",
+    "document": "prescription_asthma.pdf",
+    "question": "What is the Salbutamol strength?",
+    "expected_answer": "100 mcg",
+    "expected_source_section": "Medications",
+    "answerable": true
+  },
+  {
+    "id": "Q17",
+    "document": "prescription_asthma.pdf",
+    "question": "How often is Budesonide taken?",
+    "expected_answer": "twice daily",
+    "expected_source_section": "Medications",
+    "answerable": true
+  },
+  {
+    "id": "Q18",
+    "document": "prescription_asthma.pdf",
+    "question": "When is the respiratory review?",
+    "expected_answer": "01 July 2026",
+    "expected_source_section": "Follow-up",
+    "answerable": true
+  },
+  {
+    "id": "Q19",
+    "document": "lab_blood_count.pdf",
+    "question": "What is the hemoglobin result?",
+    "expected_answer": "12.4 g/dL",
+    "expected_source_section": "Tests and results",
+    "answerable": true
+  },
+  {
+    "id": "Q20",
+    "document": "lab_metabolic.pdf",
+    "question": "What is the potassium result?",
+    "expected_answer": "4.1 mmol/L",
+    "expected_source_section": "Tests and results",
+    "answerable": true
+  },
+  {
+    "id": "Q21",
+    "document": "discharge_dengue.pdf",
+    "question": "രോഗനിർണയം എന്താണ്?",
+    "expected_answer": "Dengue fever",
+    "expected_source_section": "Diagnosis",
+    "answerable": true
+  },
+  {
+    "id": "Q22",
+    "document": "discharge_dengue.pdf",
+    "question": "ഏത് ലക്ഷണങ്ങൾ വന്നാൽ ആശുപത്രിയിലേക്ക് മടങ്ങണം?",
+    "expected_answer": "bleeding, persistent vomiting, or severe abdominal pain",
+    "expected_source_section": "Warning signs",
+    "answerable": true
+  },
+  {
+    "id": "Q23",
+    "document": "discharge_dengue.pdf",
+    "question": "എത്ര ദിവസം വിശ്രമിക്കണം?",
+    "expected_answer": "3 days",
+    "expected_source_section": "Diet and activity",
+    "answerable": true
+  },
+  {
+    "id": "Q24",
+    "document": "discharge_dengue.pdf",
+    "question": "ആന്റിബയോട്ടിക് നൽകിയിട്ടുണ്ടോ?",
+    "expected_answer": "",
+    "expected_source_section": "",
+    "answerable": false
+  },
+  {
+    "id": "Q25",
+    "document": "discharge_diabetes_hypertension.pdf",
+    "question": "Amlodipine എത്ര mg ആണ്?",
+    "expected_answer": "5 mg",
+    "expected_source_section": "Medications",
+    "answerable": true
+  },
+  {
+    "id": "Q26",
+    "document": "discharge_diabetes_hypertension.pdf",
+    "question": "Blood pressure എത്രയായിരുന്നു?",
+    "expected_answer": "146/90 mmHg",
+    "expected_source_section": "Investigations",
+    "answerable": true
+  },
+  {
+    "id": "Q27",
+    "document": "discharge_diabetes_hypertension.pdf",
+    "question": "ദിവസവും എത്ര നേരം നടക്കണം?",
+    "expected_answer": "20 minutes",
+    "expected_source_section": "Advice",
+    "answerable": true
+  },
+  {
+    "id": "Q28",
+    "document": "discharge_diabetes_hypertension.pdf",
+    "question": "എന്റെ HbA1c എത്രയാണ്?",
+    "expected_answer": "",
+    "expected_source_section": "",
+    "answerable": false
+  },
+  {
+    "id": "Q29",
+    "document": "discharge_appendectomy.pdf",
+    "question": "മുറിവ് എങ്ങനെ സൂക്ഷിക്കണം?",
+    "expected_answer": "Keep wound clean and dry",
+    "expected_source_section": "Advice",
+    "answerable": true
+  },
+  {
+    "id": "Q30",
+    "document": "discharge_appendectomy.pdf",
+    "question": "Histopathology ഫലം എന്താണ്?",
+    "expected_answer": "",
+    "expected_source_section": "",
+    "answerable": false
+  },
+  {
+    "id": "Q31",
+    "document": "discharge_appendectomy.pdf",
+    "question": "വീണ്ടും എപ്പോൾ കാണിക്കണം?",
+    "expected_answer": "17 June 2026",
+    "expected_source_section": "Follow-up",
+    "answerable": true
+  },
+  {
+    "id": "Q32",
+    "document": "prescription_asthma.pdf",
+    "question": "Budesonide എത്ര ദിവസം ഉപയോഗിക്കണം?",
+    "expected_answer": "30 days",
+    "expected_source_section": "Medications",
+    "answerable": true
+  },
+  {
+    "id": "Q33",
+    "document": "prescription_asthma.pdf",
+    "question": "റിപ്പോർട്ടിലെ warning sign എന്താണ്?",
+    "expected_answer": "Seek urgent care for worsening breathlessness",
+    "expected_source_section": "Warning signs",
+    "answerable": true
+  },
+  {
+    "id": "Q34",
+    "document": "prescription_uti_scanned.pdf",
+    "question": "Nitrofurantoin എത്ര ദിവസം കഴിക്കണം?",
+    "expected_answer": "5 days",
+    "expected_source_section": "Medications",
+    "answerable": true
+  },
+  {
+    "id": "Q35",
+    "document": "prescription_uti_scanned.pdf",
+    "question": "എപ്പോൾ വീണ്ടും കാണിക്കണം?",
+    "expected_answer": "15 July 2026 if symptoms persist",
+    "expected_source_section": "Follow-up",
+    "answerable": true
+  },
+  {
+    "id": "Q36",
+    "document": "prescription_uti_scanned.pdf",
+    "question": "എനിക്ക് പെനിസിലിൻ അലർജി ഉണ്ടോ?",
+    "expected_answer": "",
+    "expected_source_section": "",
+    "answerable": false
+  },
+  {
+    "id": "Q37",
+    "document": "lab_blood_count.pdf",
+    "question": "Platelets ഫലം എത്ര?",
+    "expected_answer": "210,000 /uL",
+    "expected_source_section": "Tests and results",
+    "answerable": true
+  },
+  {
+    "id": "Q38",
+    "document": "lab_blood_count.pdf",
+    "question": "ഡോക്ടറെ എപ്പോൾ കാണിക്കണം?",
+    "expected_answer": "20 August 2026",
+    "expected_source_section": "Follow-up",
+    "answerable": true
+  },
+  {
+    "id": "Q39",
+    "document": "lab_metabolic.pdf",
+    "question": "Creatinine ഫലം എത്ര?",
+    "expected_answer": "0.9 mg/dL",
+    "expected_source_section": "Tests and results",
+    "answerable": true
+  },
+  {
+    "id": "Q40",
+    "document": "lab_metabolic.pdf",
+    "question": "എന്റെ kidney disease stage എന്താണ്?",
+    "expected_answer": "",
+    "expected_source_section": "",
+    "answerable": false
+  }
+]
